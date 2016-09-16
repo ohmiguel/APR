@@ -1,0 +1,99 @@
+html{background-image:url(images/BACKGROUND.png);}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#container{
+width: 960px;
+height: 650px;
+margin: auto;
+padding: 20px;
+border: 1px solid #ABABAB;
+background: #FAFAFA;
+text-align: center;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	padding: 10px 0;
+	border: 1px solid #ABABAB;
+	background-image: url(images/Ministry.png);
+	margin-bottom: 10px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+
+
+li{display: inline;
+float: right;
+margin-right: 20px }
+
+li a {
+	text-decoration: none;
+}
+
+nav{
+	border: 1px solid #ABABAB;
+	width: 960px;
+	height: 30px;
+	float: right;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 10px 0 ;
+	
+}
+
+section{
+	width: 750px;
+	height: 430px;
+	border: 1px solid #ABABAB;
+	border-radius: 3px;
+	float: left;
+	margin-bottom: 10px;
+	
+}
+
+
+article{
+	width: 200px;
+	height: 100px;
+	border: 1px solid #ABABAB;
+	float: right;
+	margin-bottom: 5px;
+	border-radius: 3px;
+
+}
+article1{
+	width: 200px;
+	height: 320px;
+	border: 1px solid #ABABAB;
+	float: right;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	font-size: small;
+
+}
+article2{
+	width: 200px;
+	height: 350px;
+	border: 1px solid #ABABAB;
+	float: right;
+	margin-bottom: 5px;
+	border-radius: 3px;
+
+}
+
+#aside{}
+
+article p {font-size: small;}
+footer{
+	width: auto;
+	border: 1px solid #ABABAB;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+	border-radius: 3px;
+	font-size: small;
+}
